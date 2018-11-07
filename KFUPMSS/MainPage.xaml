@@ -1,7 +1,84 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:KFUPMSS" x:Class="KFUPMSS.MainPage">
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:KFUPMSS" 
+             x:Class="KFUPMSS.MainPage">
+    
+    <Grid Padding="20" ColumnSpacing="10" RowSpacing="5" BackgroundColor="#E0D3BE">
+        
+        <!-- structure of the grid --> 
+        
+       <!--
+            0 and 5 rows take all the available space while the rest take the 
+            component height 
+        -->
+          <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto" />
+          </Grid.RowDefinitions>
+        
+        <!-- column defination 2 coulmns has share of the availbale width -->
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+          </Grid.ColumnDefinitions>
+        
+        
+         <!-- ID textbox -->
+          <Entry Grid.ColumnSpan="2" 
+                 Grid.Row="1"
+                 Placeholder="ID Number"
+                 PlaceholderColor="#737373"
+                 Keyboard="Numeric"/>
+        
+         <!-- password textbox -->
+          <Entry Grid.ColumnSpan="2" 
+                 Grid.Row="3"
+                 Placeholder="Password"
+                 PlaceholderColor="#737373"
+                 IsPassword="true"
+                 Keyboard="Default"/>
+          
+         <!-- Login button -->
+          <Button Grid.ColumnSpan="2" 
+                  Grid.Row="4"
+                  Text="Login"
+                  TextColor="White"
+                  FontSize="16"
+                  FontAttributes="Bold"
+                  BorderWidth="1"
+                  BackgroundColor="Gray"
+                  BorderRadius="7"
+                  BorderColor="Gray"/>
+        
+         <!-- make space -->
+        <Label Grid.Row="5"/>
+        
+        <!-- Sign up button -->
+        <Button   Grid.Column="0" 
+                  Grid.Row="6"
+                  Text="Sign UP"
+                  TextColor="black"
+                  FontSize="16"
+                  FontAttributes="Bold"
+                  HorizontalOptions="Center"
+                  BackgroundColor="Transparent"/>
+         <!-- Sign up button -->
+        <Button   Grid.Column="1" 
+                  Grid.Row="6"
+                  Text="Forget Pass?"
+                  TextColor="black"
+                  FontSize="16"
+                  FontAttributes="Bold"
+                  VerticalOptions="Center"
+                  HorizontalOptions="Center"
+                  BackgroundColor="Transparent"/>         
+        
+    </Grid>
+    
 </ContentPage>
