@@ -13,5 +13,11 @@ namespace KFUPMSS
         {
             InitializeComponent();
         }
+
+
+        async void NavigateToSignUpPage(object sender, System.EventArgs e)
+        {
+            await Navigation.PushModalAsync(new NavigationPage(new SignUp()));
+        }
     }
 }

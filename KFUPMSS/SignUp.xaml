@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="KFUPMSS.SignUp">
+    
+    <ContentPage.ToolbarItems>
+        
+      <ToolbarItem Name="MenuItem2" Order="Secondary" 
+                   Icon="Xamarin.png" 
+                   Text="Back" Priority="-1" />
+      
+        
+    </ContentPage.ToolbarItems>
+          <ScrollView>  
+    <Grid Margin="0" Padding="20" ColumnSpacing="0" RowSpacing="10" 
+          BackgroundColor="#E0D3BE">
+        
+
+        
+        <!-- structure of the grid --> 
+        
+       <!--
+            0 and 5 rows take all the available space while the rest take the 
+            component height 
+        -->
+          <Grid.RowDefinitions>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto" />
+          </Grid.RowDefinitions>
+        
+        <!-- column defination 2 coulmns has share of the availbale width -->
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+          </Grid.ColumnDefinitions>
+        
+        <Label Grid.Row="0"/>
+        
+        <Entry Grid.ColumnSpan="2" 
+                 Grid.Row="1"
+                 Placeholder="Username"
+                 PlaceholderColor="#White"
+                 IsPassword="true"
+                 Keyboard="Default"
+                 Margin="0"/>
+        
+        <Entry Grid.ColumnSpan="2" 
+                 Grid.Row="2"
+                 Placeholder="ID number"
+                 PlaceholderColor="#White"
+                 IsPassword="true"
+                 Keyboard="Numeric"
+                 Margin="0"/>
+        
+        <Entry Grid.ColumnSpan="2" 
+                 Grid.Row="3"
+                 Placeholder="Password"
+                 PlaceholderColor="#White"
+                 IsPassword="true"
+                 Keyboard="Default"/>
+        
+        
+          <Button Grid.ColumnSpan="2" 
+                  Grid.Row="5"
+                  Text="Sign Up"
+                  TextColor="White"
+                  FontSize="16"
+                  FontAttributes="Bold"
+                  BorderWidth="1"
+                  BackgroundColor="Gray"
+                  BorderRadius="7"
+                  BorderColor="Gray"/>
+        
+        <Button Grid.ColumnSpan="2" 
+                  Grid.Row="6"
+                  Text="Cancel"
+                  TextColor="White"
+                  FontSize="16"
+                  FontAttributes="Bold"
+                  BorderWidth="1"
+                  BackgroundColor="Gray"
+                  BorderRadius="7"
+                  BorderColor="Gray"
+                  WidthRequest="200"
+                  Clicked="NavigateToMainPage"/>
+        
+    </Grid>
+                </ScrollView>
+
+</ContentPage>

@@ -67,8 +67,10 @@
                   FontSize="16"
                   FontAttributes="Bold"
                   HorizontalOptions="Center"
-                  BackgroundColor="Transparent"/>
-         <!-- Sign up button -->
+                  BackgroundColor="Transparent"
+                  Clicked="NavigateToSignUpPage"/>
+        
+         <!-- forget pass button -->
         <Button   Grid.Column="1" 
                   Grid.Row="6"
                   Text="Forget Pass?"
