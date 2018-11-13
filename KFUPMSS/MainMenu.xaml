@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:KFUPMSS" 
+             x:Class="KFUPMSS.MainMenu">
+    
+   
+    <MasterDetailPage.Master >
+        <ContentPage Title="Menu" Padding="20">
+            <ContentPage.Content>
+              <StackLayout>
+                    <Label Text=" this sidebar"/>
+                    
+                </StackLayout>  
+            </ContentPage.Content>
+        </ContentPage>
+        
+        
+    </MasterDetailPage.Master>
+    
+    
+    <MasterDetailPage.Detail>
+        <TabbedPage>
+            <TabbedPage.Children>
+                        <ContentPage Title="channel" Icon="MainMenuIcons/chat/chat18.png" Padding="20">
+                        <ContentPage.Content>
+                          <StackLayout>
+                            
+                                <Button Image="MainMenuIcons/Menu/baseline_menu_black_24pt_1x.png" 
+                                        Clicked="Handle_Clicked"
+                                        VerticalOptions="Center"
+                                        HorizontalOptions="StartAndExpand"/>
+                                
+                            </StackLayout>  
+                        </ContentPage.Content>
+                    </ContentPage>
+                       
+                        
+                         <ContentPage Title="channel" Icon="MainMenuIcons/chat/chat18.png">
+                        <ContentPage.Content>
+                          <StackLayout>
+                                <Label Text="channel"/>
+                                
+                            </StackLayout>  
+                        </ContentPage.Content>
+                    </ContentPage>
+                        
+                        
+                         <ContentPage Title="channel" Icon="MainMenuIcons/chat/chat18.png">
+                        <ContentPage.Content>
+                          <StackLayout>
+                                <Label Text="channel"/>
+                                
+                            </StackLayout>  
+                        </ContentPage.Content>
+                     </ContentPage>
+            
+            </TabbedPage.Children>
+        </TabbedPage>
+    </MasterDetailPage.Detail>
+    
+    
+    
+</MasterDetailPage>

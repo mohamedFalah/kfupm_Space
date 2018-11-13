@@ -158,4 +158,29 @@
       <Name>KFUPMSS</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\MainMenuIcons\" />
+    <Folder Include="Resources\MainMenuIcons\chat\" />
+    <Folder Include="Resources\MainMenuIcons\blogs\" />
+    <Folder Include="Resources\MainMenuIcons\roommateFinder\" />
+    <Folder Include="Resources\MainMenuIcons\market\" />
+    <Folder Include="Resources\MainMenuIcons\Menu\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\MainMenuIcons\chat\chat18.png" />
+    <BundleResource Include="Resources\MainMenuIcons\chat\chat24.png" />
+    <BundleResource Include="Resources\MainMenuIcons\chat\chat24X3.png" />
+    <BundleResource Include="Resources\MainMenuIcons\blogs\baseline_forum_black_24pt_1x.png" />
+    <BundleResource Include="Resources\MainMenuIcons\blogs\baseline_forum_black_24pt_2x.png" />
+    <BundleResource Include="Resources\MainMenuIcons\blogs\baseline_forum_black_24pt_3x.png" />
+    <BundleResource Include="Resources\MainMenuIcons\market\baseline_shopping_cart_black_24pt_1x.png" />
+    <BundleResource Include="Resources\MainMenuIcons\market\baseline_shopping_cart_black_24pt_2x.png" />
+    <BundleResource Include="Resources\MainMenuIcons\market\baseline_shopping_cart_black_24pt_3x.png" />
+    <BundleResource Include="Resources\MainMenuIcons\roommateFinder\baseline_group_black_24pt_1x.png" />
+    <BundleResource Include="Resources\MainMenuIcons\roommateFinder\baseline_group_black_24pt_2x.png" />
+    <BundleResource Include="Resources\MainMenuIcons\roommateFinder\baseline_group_black_24pt_3x.png" />
+    <BundleResource Include="Resources\MainMenuIcons\Menu\baseline_menu_black_24pt_1x.png" />
+    <BundleResource Include="Resources\MainMenuIcons\Menu\baseline_menu_black_24pt_2x.png" />
+    <BundleResource Include="Resources\MainMenuIcons\Menu\baseline_menu_black_24pt_3x.png" />
+  </ItemGroup>
 </Project>

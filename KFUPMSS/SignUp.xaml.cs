@@ -14,7 +14,7 @@ namespace KFUPMSS
 
         async void NavigateToMainPage(object sender, System.EventArgs e)
         {
-            await Navigation.PushModalAsync(new MainPage());
+            await Navigation.PushModalAsync(new Login());
         }
     }
 }
