@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KFUPMSS.Page1">
+    <ContentPage.Content>
+        <ScrollView BackgroundColor="Black">
+            <StackLayout Orientation="Vertical">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Label Text="Course_Name"></Label>
+                    <Label Text="Section#"></Label>
+                </StackLayout>
+
+                <Label Text="course description" HorizontalOptions="Center"></Label>
+
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Media"></Label>
+                    <RelativeLayout
+                        RelativeLayout.WidthConstraint="{ConstraintExpression
+                        Type=RelativeToParent,
+                        Property=Width,
+                        Factor=1}"
+                        RelativeLayout.HeightConstraint="{ConstraintExpression
+                        Type=RelativeToParent,Property=Height,Factor=0.2}">
+                        <Label Text="Hello world"></Label>
+                    </RelativeLayout>
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
