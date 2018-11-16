@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="KFUPMSS.Page1">
+             x:Class="KFUPMSS.RoomInformationPage">
     <ContentPage.Content>
         <ScrollView BackgroundColor="Black">
             <StackLayout Orientation="Vertical">
@@ -13,7 +13,11 @@
                 <Label Text="course description" HorizontalOptions="Center"></Label>
 
                 <StackLayout Orientation="Vertical">
-                    <Label Text="Media"></Label>
+                    <StackLayout Orientation="Horizontal">
+                        <Label  Text="Media"></Label>
+                        <Label  Text="G"></Label>
+                    </StackLayout>
+                    
                     <RelativeLayout
                         RelativeLayout.WidthConstraint="{ConstraintExpression
                         Type=RelativeToParent,

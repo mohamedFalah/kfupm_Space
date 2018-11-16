@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace KFUPMSS
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Page1 : ContentPage
+	public partial class RoomInformationPage : ContentPage
 	{
-		public Page1 ()
+		public RoomInformationPage()
 		{
 			InitializeComponent ();
 		}
