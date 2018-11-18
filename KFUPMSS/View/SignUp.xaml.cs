@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 using Xamarin.Forms;
 
-namespace KFUPMSS
+namespace KFUPMSS.View
 {
     public partial class SignUp : ContentPage
     {
@@ -16,5 +16,13 @@ namespace KFUPMSS
         {
             await Navigation.PushModalAsync(new Login());
         }
+
+         void IsSuccessful(object sender, System.EventArgs e)
+        {
+            DisplayAlert("Registration", Message.Text, "Done");
+
+        }
+
+
     }
 }

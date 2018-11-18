@@ -11,7 +11,7 @@ namespace KFUPMSS
         {
             InitializeComponent();
 
-            MainPage = new MainMenu();
+            MainPage = new Login();
         }
 
         protected override void OnStart()
