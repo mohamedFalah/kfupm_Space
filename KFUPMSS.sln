@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KFUPMSS.iOS", "KFUPMSS.iOS\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KFUPMSS", "KFUPMSS\KFUPMSS.csproj", "{D13AD105-F40B-4B12-9EFD-D716448DDE9D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KFUPMSSBackend", "KFUPMSSBackend\KFUPMSSBackend\KFUPMSSBackend.csproj", "{46DF5262-6379-4BBE-98E1-1B1A1FEC332D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,5 +69,21 @@ Global
 		{D13AD105-F40B-4B12-9EFD-D716448DDE9D}.Ad-Hoc|iPhone.Build.0 = Debug|Any CPU
 		{D13AD105-F40B-4B12-9EFD-D716448DDE9D}.AppStore|iPhone.ActiveCfg = Debug|Any CPU
 		{D13AD105-F40B-4B12-9EFD-D716448DDE9D}.AppStore|iPhone.Build.0 = Debug|Any CPU
+		{46DF5262-6379-4BBE-98E1-1B1A1FEC332D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46DF5262-6379-4BBE-98E1-1B1A1FEC332D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46DF5262-6379-4BBE-98E1-1B1A1FEC332D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46DF5262-6379-4BBE-98E1-1B1A1FEC332D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46DF5262-6379-4BBE-98E1-1B1A1FEC332D}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{46DF5262-6379-4BBE-98E1-1B1A1FEC332D}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{46DF5262-6379-4BBE-98E1-1B1A1FEC332D}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{46DF5262-6379-4BBE-98E1-1B1A1FEC332D}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{46DF5262-6379-4BBE-98E1-1B1A1FEC332D}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{46DF5262-6379-4BBE-98E1-1B1A1FEC332D}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{46DF5262-6379-4BBE-98E1-1B1A1FEC332D}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{46DF5262-6379-4BBE-98E1-1B1A1FEC332D}.Release|iPhone.Build.0 = Release|Any CPU
+		{46DF5262-6379-4BBE-98E1-1B1A1FEC332D}.Ad-Hoc|iPhone.ActiveCfg = Debug|Any CPU
+		{46DF5262-6379-4BBE-98E1-1B1A1FEC332D}.Ad-Hoc|iPhone.Build.0 = Debug|Any CPU
+		{46DF5262-6379-4BBE-98E1-1B1A1FEC332D}.AppStore|iPhone.ActiveCfg = Debug|Any CPU
+		{46DF5262-6379-4BBE-98E1-1B1A1FEC332D}.AppStore|iPhone.Build.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal
